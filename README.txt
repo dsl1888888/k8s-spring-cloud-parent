@@ -12,3 +12,18 @@ http://5.34.180.96:1234/showdoc1234/web/#/1?page_id=606
 
 https://github.com/CodingSoldier/java-learn/tree/master/project/k8s-spring-cloud-csdn
 https://github.com/CodingSoldier/java-learn
+
+
+
+# 测试地址
+
+
+curl http://47.243.188.180:30005/app02/test02/get
+curl http://47.243.188.180:30005/app01/test01/get
+
+
+curl http://localhost:30005/app02/test02/get
+curl http://localhost:30005/app01/test01/get
+
+
+
