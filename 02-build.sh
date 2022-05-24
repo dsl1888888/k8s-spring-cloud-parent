@@ -46,7 +46,7 @@ cp /opt/k8s-spring-cloud-parent/demo-springcloud-zuul/target/demo-springcloud-zu
 
 docker build -f Dockerfile -t codingsoldier/api-gateway:latest .
 docker tag  codingsoldier/api-gateway:latest localhost:32000/codingsoldier/api-gateway:latest
-docker push localhost:32000/codingsoldier/api-gateway:latestroot@iZj6cj44anqpmbfiuawr6iZ:/opt/k8s-spring-cloud-parent# 
+docker push localhost:32000/codingsoldier/api-gateway:latest
 
  
 
