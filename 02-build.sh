@@ -42,7 +42,7 @@ docker push localhost:32000/codingsoldier/app002:latest
 cd /opt/k8s-spring-cloud-parent/demo-springcloud-zuul/docker-k8s
 
 rm -rf *.jar
-cp /opt/k8s-spring-cloud-parent/demo-springcloud-zuul/target/demo-springcloud-zuul.jar .
+cp /opt/k8s-spring-cloud-parent/demo-springcloud-zuul/target/demo-springcloud-zuul-0.0.1-SNAPSHOT.jar .
 
 docker build -f Dockerfile -t codingsoldier/api-gateway:latest .
 docker tag  codingsoldier/api-gateway:latest localhost:32000/codingsoldier/api-gateway:latest
