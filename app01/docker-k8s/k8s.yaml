@@ -25,10 +25,12 @@ kind: Service
 metadata:
   name: service-app001
 spec:
+  type: NodePort
   selector:
     app: app001
   ports:
   - name: http
     port: 10011
     targetPort: 10011
+    nodePort: 30011
 
